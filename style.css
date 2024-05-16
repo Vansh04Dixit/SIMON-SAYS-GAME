@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+.main-container{
+    height: 60vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    height: 35%;
+    width: 25%;
+    margin: 2vw;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+
+/* It will blink the buttons*/
+.flash{
+    background-color: #fff;
+}
